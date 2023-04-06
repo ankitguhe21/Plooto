@@ -1,6 +1,15 @@
 {
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-ci": "cypress run --env  --browser chrome --parallel --record",
+    "report:merge": "mochawesome-merge cypress/reports/html/.jsons/*.json > index.json",
+    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
+  },
   "devDependencies": {
     "cypress": "^12.9.0",
-    "typescript": "^5.0.3"
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "typescript": "^5.0.3",
+    "prettier": "2.8.1"
   }
 }
