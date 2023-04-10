@@ -6,7 +6,7 @@
 
 - [VSCode](code.visualstudio.com)- Editor: Free, Built on open source, Runs everywhere!
 - [node.js] - event I/O for the backend
-- [cypress](cypress. io) - Fast, easy and reliable testing for anything that runs in a browser.
+- [cypress](https://www.cypress.io/) - Fast, easy and reliable testing for anything that runs in a browser.
 - [Javascript](https://www.javascript.com/) - world's most popular programming language.
 - [cypress-mochawesome-reporter](https://github.com/LironEr/cypress-mochawesome-reporter) -Mochaawesome is a flexible lightweight multi-language test report tool
 
