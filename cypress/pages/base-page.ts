@@ -1,5 +1,5 @@
 export default class BasePage {
-  constructor() {}
+  
   get errorFeild() {
     return cy.get('.tooltip-error');
   }
