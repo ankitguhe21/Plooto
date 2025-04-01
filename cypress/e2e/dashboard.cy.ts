@@ -27,5 +27,6 @@ describe('Dashboard Tests', () => {
     DashboardPage.getDashboardTab('href="#user/dashboard/pendingPayments"').click();
     PendingPayment.verifyHeader('Payments currently in transit');
     PendingPayment.pendingPaymentTable.should('be.visible');
+    //adde
   });
 });
